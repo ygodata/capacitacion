@@ -25,6 +25,7 @@ export class TaskListComponent implements OnInit {
   ngOnInit() {
     this.tasks = this.taskService.getTasks();
     console.log('test')
+    console.log('test2');
   }
 
   completeTask(index: number) {
