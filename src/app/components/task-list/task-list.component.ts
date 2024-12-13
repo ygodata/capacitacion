@@ -26,6 +26,7 @@ export class TaskListComponent implements OnInit {
     this.tasks = this.taskService.getTasks();
     console.log('test')
     console.log('test2');
+    console.log ('test3');
   }
 
   completeTask(index: number) {
