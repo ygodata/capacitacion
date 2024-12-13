@@ -33,5 +33,6 @@ export class TaskListComponent implements OnInit {
 
   completeTask(index: number) {
     this.taskService.completeTask(index);
+    //no merge conflict
   }
 }
