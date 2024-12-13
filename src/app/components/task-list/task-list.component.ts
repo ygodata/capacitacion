@@ -27,6 +27,7 @@ export class TaskListComponent implements OnInit {
     console.log('test')
     console.log('test2');
     console.log ('test3');
+    //comentario agregado
   }
 
   completeTask(index: number) {
